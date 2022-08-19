@@ -14,7 +14,9 @@ return [
     */
 
     'name' => env('APP_NAME', 'Laravel'),
-
+//     for heroku develop
+    'key' => env('APP_KEY', 'SomeRandomStringSomeRandomString'),
+    
     /*
     |--------------------------------------------------------------------------
     | Application Environment
